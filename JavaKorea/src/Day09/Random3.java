@@ -32,7 +32,7 @@ class MyRandom3{
 		// 여기에 최소 ~ 최대를 랜덤 돌리기
 		Random rand = new Random();
 		result = rand.nextInt(num2 - num1 +1) + num1;
-		
+		// result = (int)(Math.random()*(num2-num1+1)) + num1;
 		
 		System.out.println(result);
 		sc.close();
